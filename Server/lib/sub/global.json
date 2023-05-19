@@ -1,0 +1,39 @@
+{
+	"ADMIN": [ "" ],
+	"MAIN_PORTS": [ 8080 ],
+	"WEB_PORT": 80,
+	"SSL_PORT": 443,
+	"TRUST_PROXY": "",
+	"GAME_SERVER_HOST": "127.0.0.2",
+	"KKUTUHOT_PATH": "/kkutu/data/kkutuhot.json",
+	"PASS":"",
+	"PG_HOST": "localhost",
+	"PG_USER": "postgres",
+	"PG_PASSWORD": "",
+	"PG_PORT": 5432,
+	"PG_DATABASE": "main",
+	"GOOGLE_RECAPTCHA_TO_GUEST": false,
+	"GOOGLE_RECAPTCHA_TO_USER": false,
+	"GOOGLE_RECAPTCHA_SITE_KEY": "",
+	"GOOGLE_RECAPTCHA_SECRET_KEY": "",
+	"IS_SECURED": false,
+	"SSL_OPTIONS": {
+		"PRIVKEY": "",
+		"CERT": "",
+		"CA": "",
+		"PFX": "",
+		"isPFX": false,
+		"isCA": false
+	},
+	"USER_BLOCK_OPTIONS": {
+		"USE_MODULE": true,
+		"USE_X_FORWARDED_FOR": false,
+		"BLOCK_IP_ONLY_FOR_GUEST": true,
+		"DEFAULT_BLOCKED_TEXT": "관리자에 의해 밴당하셨습니다.",
+		"BLOCKED_FOREVER": "영구 밴"
+	},
+	"NICKNAME_LIMIT": {
+		"TERM": 7,
+		"REGEX": [ "[\\{\\}\\[\\]\\/?.,;:|\\)*~`!^\\-+<>@#$%&\\\\=\\(\\'\"]", "gi" ]
+	}
+}
